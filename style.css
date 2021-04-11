@@ -1,0 +1,109 @@
+input, textarea, label {
+    display:block;
+} 
+.hidden {
+    display: none;
+   
+}
+.alert {
+    font-style: italic;
+    font-size: 3rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: wheat;
+    color: violet;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    
+}
+
+body{
+    margin: 0;
+    background-color: snow;
+}
+
+.design{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35rem;
+    margin-right: 30rem;
+    border: 2px solid black;
+    padding: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+.artsy{
+    margin-left: 10rem;
+}
+
+nav a{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+nav{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 1rem;
+    margin: 0;
+    align-items: center;
+    
+}
+
+.reg {
+    margin-left: 2rem;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #998d6b;
+}
+
+.postSuggestionForm{
+    margin-left: 45rem;
+    margin-top: 15rem;
+}
+.postSuggestionForm label{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.postSuggestionForm input{
+    padding: 1rem;
+}
+
+.postSuggestionForm textarea{
+    padding: 1.5rem;
+}
+.submit_btn{
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.bh {
+    display: flex;
+    margin-left: 45rem;
+    margin-top: 2.5rem;
+
+}
+
+footer {
+    display: block;
+    justify-content: center;
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 3px;
+    color: white;
+
+  }
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 3.4rem;
+}
+
+
+
